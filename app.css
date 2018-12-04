@@ -1,16 +1,4 @@
 body {
-  font-family: "Oswald", sans-serif;
-}
-
-/* 
-@media only screen (max-width: 767px) {
-  body {
-    background: url(imgs/background-mobile.jpeg) no-repeat center center fixed;
-    background-size: cover;
-  }
-} */
-
-body {
   /* background: url(imgs/background.jpeg) no-repeat center center fixed; */
   background-image: url(imgs/background.jpeg);
   background-repeat: no-repeat;
@@ -18,13 +6,14 @@ body {
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
+  font-family: "Oswald", sans-serif;
 }
 
 
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 300;
-  background: rgba(0, 0, 0, 0.75)
+  background: rgba(0, 0, 0, 0.7)
 }
 
 #mainNavbar .nav-link {
