@@ -27,6 +27,7 @@ body {
   color: white;
 }
 
+
 #about {
   margin-top: 25vh;
   background: rgba(0, 0, 0, 0.70);
@@ -48,4 +49,29 @@ body {
 
 #contacts img {
   width: 55px;
+}
+
+@media (max-width: 500px) {
+  #mainNavbar {
+    /* font-size: 1.5rem; */
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0.7)
+  }
+
+  #mainNavbar .nav-link {
+    color: rgb(218, 218, 218);
+    padding: 0 20px 0 20px;
+  }
+
+  #mainNavbar .nav-link:hover {
+    color: white;
+  }
+
+  #about h1 {
+    font-size: 3rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
 }
