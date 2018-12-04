@@ -2,22 +2,22 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen (max-width: 767px) {
   body {
     background: url(imgs/background-mobile.jpeg) no-repeat center center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
   }
 }
 
 body {
   background: url(imgs/background.jpeg) no-repeat center center fixed;
   background-size: cover;
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
 }
 
 
