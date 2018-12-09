@@ -1,5 +1,4 @@
 body {
-  /* background: url(imgs/background.jpeg) no-repeat center center fixed; */
   background-image: url(imgs/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,6 +8,7 @@ body {
   font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
   color: white;
+  overflow-x: hidden;
 }
 
 
@@ -25,30 +25,6 @@ body {
 
 #mainNavbar .nav-link:hover {
   color: white;
-}
-
-
-#about {
-  margin-top: 25vh;
-  background: rgba(0, 0, 0, 0.70);
-  line-height: 2;
-}
-
-#logo {
-  padding-top: 30vh;
-}
-
-#logo img {
-  width: 375px;
-}
-
-#contacts {
-  padding-top: 30vh;
-}
-
-
-#contacts img {
-  width: 55px;
 }
 
 @media (max-width: 500px) {
@@ -74,4 +50,38 @@ body {
   #about p {
     font-size: 1rem;
   }
+}
+
+#logo {
+  padding-top: 30vh;
+}
+
+#logo img {
+  width: 375px;
+}
+
+#contacts {
+  padding-top: 30vh;
+}
+
+#contacts img {
+  width: 55px;
+}
+
+#about {
+  margin-top: 25vh;
+  background: rgba(0, 0, 0, 0.70);
+  line-height: 2;
+}
+
+#portfolio {
+  padding-top: 20px;
+  background: rgba(0, 0, 0, 0.70);
+  margin-top: 18vh;
+  width: 90vw;
+}
+
+#portfolio .card {
+  /* font-size: 1rem; */
+  font-weight: 300;
 }
